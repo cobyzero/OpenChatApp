@@ -45,14 +45,14 @@ class _ChatPageState extends State<ChatPage> {
             Expanded(
                 child: SingleChildScrollView(
                     child: Column(children: [
-              mensajeIzquierda("Hola mundo"),
+              mensajeIzquierda("Hola"),
               mensajeDerecha("Hola!"),
-              mensajeIzquierda("Hola mundo"),
-              mensajeDerecha("Hola!"),
-              mensajeIzquierda("Hola mundo"),
-              mensajeDerecha("Hola!"),
-              mensajeIzquierda("Hola mundo"),
-              mensajeDerecha("Hola!"),
+              mensajeIzquierda("Como estas"),
+              mensajeDerecha("bien y tu?"),
+              mensajeIzquierda("igual, que haces?"),
+              mensajeDerecha("programando"),
+              mensajeIzquierda("espero te vaya bien"),
+              mensajeDerecha("igualmente gracias!"),
             ]))),
             barrachat()
           ],
